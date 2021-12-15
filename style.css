@@ -29,12 +29,12 @@ body {
   height: 300px;
   object-fit: cover;
 }
-.bg-container {
-  /*background-image: url("/Resources/images/portfoliobackground.jpg");
+/*.bg-container {
+  background-image: url("/Resources/images/portfoliobackground.jpg");
   background-size: cover;
   z-index: -1;
-  opacity: 0.5;*/
-}
+  opacity: 0.5;
+}*/
 .aboutMeContainer {
   display: grid;
   height: 100vh;
@@ -49,7 +49,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-weight: 800;
   /*text-transform: uppercase;*/
-  font-size: 12px;
+  font-size: 14px;
 
   text-align: center;
 }
@@ -81,7 +81,7 @@ body {
   /*border-style: solid;*/
   /*background-color: lightpink;*/
   grid-area: aboutMeContent5;
-  transform: translate(-20px, 20px);
+  transform: translate(-20px, 80px);
 }
 .aboutMeContent6 {
   /*border-style: solid;*/
@@ -93,7 +93,7 @@ body {
   /*border-style: solid;*/
   /*background-color: lightslategray;*/
   grid-area: aboutMeContent7;
-  transform: translate(-20px, 20px);
+  transform: translate(-20px, 70px);
 }
 
 .projectsContainer {
@@ -111,7 +111,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-weight: 800;
   /*text-transform: uppercase;*/
-  font-size: 12px;
+  font-size: 14px;
 
   text-align: center;
 }
@@ -133,6 +133,7 @@ body {
 .projectsContent3 {
   /*background-color: lightgoldenrodyellow;*/
   grid-area: projectsContent3;
+  transform: translate(-270px, 20px);
 }
 .projectsContent4 {
   /*border-style: solid;*/
@@ -164,7 +165,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-weight: 800;
   /*text-transform: uppercase;*/
-  font-size: 12px;
+  font-size: 14px;
 
   text-align: center;
 }
@@ -183,25 +184,31 @@ body {
 .contactContent3 {
   /*background-color: lightgoldenrodyellow;*/
   grid-area: contactContent3;
+  transform: translate(-270px, 6px);
 }
 .contactContent4 {
   /*border-style: solid;*/
   /*background-color: lightgreen;*/
   grid-area: contactContent4;
+  transform: translate(0px, -40px);
 }
 .contactContent5 {
   /*border-style: solid;*/
   /*background-color: lightpink;*/
   grid-area: contactContent5;
+  transform: translate(-20px, 60px);
 }
 .contactContent6 {
   /*border-style: solid;*/
   /*background-color: lightsalmon;*/
   grid-area: contactContent6;
+  transform: translate(80px, -40px);
+  text-align: left;
 }
 
 .headerlist .aboutlist {
   display: inline;
+  padding: 20px;
 }
 
 .mySlides {
