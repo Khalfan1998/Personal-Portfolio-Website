@@ -56,7 +56,8 @@ body {
     "aboutMeContent4 aboutMeContent5"
     "aboutMeContent6 aboutMeContent7";
   grid-gap: 0.2rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-weight: 800;
   /*text-transform: uppercase;*/
   font-size: 14px;
@@ -118,7 +119,8 @@ body {
     "projectsContent5 projectsContent5"
     "projectsContent6 projectsContent6";
   grid-gap: 0.2rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-weight: 800;
   /*text-transform: uppercase;*/
   font-size: 14px;
@@ -172,7 +174,8 @@ body {
     "contactContent4 contactContent4"
     "contactContent5 contactContent6";
   grid-gap: 0.2rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-weight: 800;
   /*text-transform: uppercase;*/
   font-size: 14px;
@@ -296,6 +299,20 @@ img {
   }
 }
 
+/* add media query for screen sizes here*/
 
-/* add media query for screen sizes here
-/* @media /*
+/* iphone X */
+/* fix grid */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+}
+
+/* iphone 8 */
+/* fix grid */
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+}
+
+/* iphone 8 Plus */
+/* fix grid */
+
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+}
