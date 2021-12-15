@@ -2,14 +2,25 @@ ul li {
   list-style-type: none;
 }
 
+/*html,
+body {
+  background-size: cover !important;
+  padding: 0;
+  margin: 0;
+}
+  html {
+  background: url("/Resources/images/portfoliobackground2.jpg");
+}*/
 body {
   background-color: white;
   color: black;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 .mode {
   float: right;
 }
+
 .change {
   cursor: pointer;
   border: 1px solid #555;
@@ -30,9 +41,8 @@ body {
   object-fit: cover;
 }
 /*.bg-container {
-  background-image: url("/Resources/images/portfoliobackground.jpg");
+  background-image: url("/Resources/images/portfoliobackground2.jpg");
   background-size: cover;
-  z-index: -1;
   opacity: 0.5;
 }*/
 .aboutMeContainer {
@@ -285,3 +295,7 @@ img {
     opacity: 1;
   }
 }
+
+
+/* add media query for screen sizes here
+/* @media /*
