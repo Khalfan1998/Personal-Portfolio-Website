@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="Resources/images/favicon.ico" />
+    <title>Personal Porfolio Website-Contact</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="contactContainer">
+      <div class="headerContent contactContent1">
+        <nav>
+          <header>
+            <ul class="headerlist">
+              <li class="aboutlist">About Me</li>
+
+              <li class="aboutlist">Projects</li>
+
+              <li class="aboutlist">Contact</li>
+            </ul>
+          </header>
+        </nav>
+      </div>
+
+      <div class="myname contactContent2">
+        <p>Mohammed Al Khalfan</p>
+      </div>
+
+      <div class="darkmode contactContent3">
+        <div class="mode">
+          Dark mode:
+          <span class="change">OFF</span>
+        </div>
+      </div>
+
+      <div class="contacttitle contactContent4">
+        <h1>Contact</h1>
+      </div>
+
+      <div class="userform contactContent5">
+        <form>Form Here</form>
+      </div>
+
+      <div class="contactinfo contactContent6">
+        <img src="" alt="" />
+
+        <p>Name: Mohammed Al Khalfan</p>
+        <p>Age: 23</p>
+        <p>Email: Khalfan.ikns@gmail.com</p>
+        <p>Country: Bahrain</p>
+        <p>Address: House 98, Road 66, Area 360, Zinj.</p>
+      </div>
+    </div>
+    <script>
+      $(".change").on("click", function () {
+        if ($("body").hasClass("dark")) {
+          $("body").removeClass("dark");
+          $(".change").text("OFF");
+        } else {
+          $("body").addClass("dark");
+          $(".change").text("ON");
+        }
+      });
+    </script>
+  </body>
+</html>

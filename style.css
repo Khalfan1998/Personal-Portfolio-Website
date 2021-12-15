@@ -1,0 +1,185 @@
+ul li {
+  list-style-type: none;
+}
+
+body {
+  background-color: white;
+}
+
+.mode {
+  float: right;
+}
+.change {
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 60%;
+  width: 20px;
+  text-align: center;
+  padding: 1px;
+  margin-left: 8px;
+}
+.dark {
+  background-color: #222;
+  color: #e6e6e6;
+}
+
+.aboutMeContainer {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.1fr 0.1fr 1fr 1fr;
+  grid-template-areas:
+    "aboutMeContent2 aboutMeContent1"
+    "aboutMeContent2 aboutMeContent3"
+    "aboutMeContent4 aboutMeContent5"
+    "aboutMeContent6 aboutMeContent7";
+  grid-gap: 0.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  /*text-transform: uppercase;*/
+  font-size: 12px;
+  color: black;
+  text-align: center;
+}
+
+.aboutMeContent1 {
+  /*background-color: lightblue;*/
+  border-style: solid;
+  grid-area: aboutMeContent1;
+}
+
+.aboutMeContent2 {
+  border-style: solid;
+  /*background-color: lightcoral;*/
+  grid-area: aboutMeContent2;
+}
+.aboutMeContent3 {
+  border-style: solid;
+  /*background-color: lightgoldenrodyellow;*/
+  grid-area: aboutMeContent3;
+}
+.aboutMeContent4 {
+  border-style: solid;
+  /*background-color: lightgreen;*/
+  grid-area: aboutMeContent4;
+}
+.aboutMeContent5 {
+  border-style: solid;
+  /*background-color: lightpink;*/
+  grid-area: aboutMeContent5;
+}
+.aboutMeContent6 {
+  border-style: solid;
+  /*background-color: lightsalmon;*/
+  grid-area: aboutMeContent6;
+}
+.aboutMeContent7 {
+  border-style: solid;
+  /*background-color: lightslategray;*/
+  grid-area: aboutMeContent7;
+}
+
+.projectsContainer {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.2fr 0.1fr 1fr;
+  grid-template-areas:
+    "projectsContent2 projectsContent1"
+    "projectsContent2 projectsContent3"
+    "projectsContent4 projectsContent4"
+    "projectsContent5 projectsContent5"
+    "projectsContent6 projectsContent6";
+  grid-gap: 0.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+}
+
+.projectsContent1 {
+  border-style: solid;
+  /*background-color: lightblue;*/
+  grid-area: projectsContent1;
+}
+
+.projectsContent2 {
+  border-style: solid;
+  /*background-color: lightcoral;*/
+  grid-area: projectsContent2;
+}
+.projectsContent3 {
+  /*background-color: lightgoldenrodyellow;*/
+  grid-area: projectsContent3;
+}
+.projectsContent4 {
+  border-style: solid;
+  /*background-color: lightgreen;*/
+  grid-area: projectsContent4;
+}
+.projectsContent5 {
+  border-style: solid;
+  /*background-color: lightpink;*/
+  grid-area: projectsContent5;
+}
+.projectsContent6 {
+  border-style: solid;
+  /*background-color: lightsalmon;*/
+  grid-area: projectsContent6;
+}
+
+.contactContainer {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 1fr;
+  grid-template-areas:
+    "contactContent2 contactContent1"
+    "contactContent2 contactContent3"
+    "contactContent4 contactContent4"
+    "contactContent5 contactContent6";
+  grid-gap: 0.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+}
+
+.contactContent1 {
+  border-style: solid;
+  /*background-color: lightblue;*/
+  grid-area: contactContent1;
+}
+
+.contactContent2 {
+  border-style: solid;
+  /*background-color: lightcoral;*/
+  grid-area: contactContent2;
+}
+.contactContent3 {
+  /*background-color: lightgoldenrodyellow;*/
+  grid-area: contactContent3;
+}
+.contactContent4 {
+  border-style: solid;
+  /*background-color: lightgreen;*/
+  grid-area: contactContent4;
+}
+.contactContent5 {
+  border-style: solid;
+  /*background-color: lightpink;*/
+  grid-area: contactContent5;
+}
+.contactContent6 {
+  border-style: solid;
+  /*background-color: lightsalmon;*/
+  grid-area: contactContent6;
+}
+
+.headerlist .aboutlist {
+  display: inline;
+}

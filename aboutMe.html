@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="Resources/images/favicon.ico" />
+    <title>Personal Porfolio Website-About Me</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="aboutMeContainer">
+      <div class="navContent aboutMeContent1">
+        <nav>
+          <header>
+            <ul class="headerlist">
+              <li class="aboutlist">About Me</li>
+
+              <li class="aboutlist">Projects</li>
+
+              <li class="aboutlist">Contact</li>
+            </ul>
+          </header>
+        </nav>
+      </div>
+
+      <div class="myname aboutMeContent2">
+        <p>Mohammed Al Khalfan</p>
+      </div>
+
+      <div class="darkmode aboutMeContent3">
+        <div class="mode">
+          Dark mode:
+          <span class="change">OFF</span>
+        </div>
+      </div>
+
+      <div class="aboutMe aboutMeContent4">
+        <h1>About Me</h1>
+
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime,
+          repudiandae?
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+          facilis?
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, at?
+        </p>
+      </div>
+
+      <div class="profilepic aboutMeContent5">
+        <img src="" alt="" />
+      </div>
+
+      <div class="projects aboutMeContent6">
+        <h2>Projects</h2>
+
+        <ul>
+          <li>Project 1</li>
+
+          <li>Project 2</li>
+
+          <li>Project 3</li>
+
+          <li>Project 4</li>
+
+          <li>Project 5</li>
+
+          <li>Project 6</li>
+        </ul>
+      </div>
+
+      <div class="skills aboutMeContent7">
+        <h2>Skills</h2>
+        <ul>
+          <li>Skill 1</li>
+          <img src="" alt="" />
+
+          <li>Skill 2</li>
+          <img src="" alt="" />
+
+          <li>Skill 3</li>
+          <img src="" alt="" />
+
+          <li>Skill 4</li>
+          <img src="" alt="" />
+
+          <li>Skill 5</li>
+          <img src="" alt="" />
+
+          <li>Skill 6</li>
+          <img src="" alt="" />
+
+          <li>Skill 7</li>
+          <img src="" alt="" />
+
+          <li>Skill 8</li>
+          <img src="" alt="" />
+        </ul>
+      </div>
+    </div>
+    <script>
+      $(".change").on("click", function () {
+        if ($("body").hasClass("dark")) {
+          $("body").removeClass("dark");
+          $(".change").text("OFF");
+        } else {
+          $("body").addClass("dark");
+          $(".change").text("ON");
+        }
+      });
+    </script>
+  </body>
+</html>
